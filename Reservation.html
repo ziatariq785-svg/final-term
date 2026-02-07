@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Page</title>
+    <link rel="stylesheet" href="Reservation.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Menu.html" class="active">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="reserve-btn"><a href="Reservation.html">Reservation</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="Reservation-container">
+            <h1 id="title">Reservation</h1>
+
+
+            <div id="messageBox" class="msg-box"></div>
+
+            <div id="form-div">
+                <form id="reservationForm">
+                    <label for="Name">Name:</label>
+                    <input type="text" id="Name" name="Name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" id="number" name="number" required>
+
+                    <label for="Time">Time:</label>
+                    <input type="time" id="Time" name="Time" required>
+
+                    <label for="Date">Date:</label>
+                    <input type="date" id="Date" name="Date" required>
+
+                    <label for="party">Party Size:</label>
+                    <input type="number" id="party" name="Party" required>
+
+                    <input type="submit" value="Submit" id="btn">
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-container">
+              <div class="footer-box">
+                  <h3 class="footer-title">Quick Links</h3>
+                     <ul class="footer-links">
+                         <li><a href="./index.html">Home</a></li>
+                         <li><a href="./about.html">ABOUT US</a></li>
+                         <li><a href="./gallery.html">GALLERY</a></li>
+                         <li><a href="Menu.html"> MENU</a></li>
+                         <li><a href="contact.html"> CONTACT US</a></li>
+                      </ul>
+              </div>
+              <div class="footer-box">
+                  <h3 class="footer-title">Contact Us</h3>
+                  <p>Email: support@ghalib.com</p>
+                  <p>Phone: +92 98765 43210</p>
+                 <p>Location: Karachi, Pakistan</p>
+              </div>
+        </div>
+
+                <div class="footer-bottom">
+                    <p>© 2025 GHALIB Restaurant. All Rights Reserved.</p>
+                </div>
+
+</footer>
+
+    <script src="Reservation.js"></script>
+</body>
+
+</html>
