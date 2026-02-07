@@ -7,16 +7,16 @@
      height: 750px;
      display: flex;
      width: 100%;
-     background-image: url(./images/pic\ 1.png) url(./images/pic\ 2.png) url(images/pic\ 3.png);
+     background-image: url(./image/pic\ 1.png) url(./image/pic\ 2.png) url(image/pic\ 3.png);
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
      animation: slideHeader 15s infinite ease-in-out;
 }
 @keyframes slideHeader {
-     0%, 100% { background-image: url("./images/pic 1.png"); }
-     33% { background-image: url("./images/pic 2.png"); }
-     66% { background-image: url("images/pic 3.png"); }
+     0%, 100% { background-image: url("./image/pic 1.png"); }
+     33% { background-image: url("./image/pic 2.png"); }
+     66% { background-image: url("image/pic 3.png"); }
 }
 .nav-1{
      width: 25%;  
@@ -88,7 +88,7 @@
      
 }
 .main-container{
-     background-image: url(./images/bg.png);
+     background-image: url(./image/bg.png);
      background-size: fill;
      background-repeat: repeat; 
      padding: 20px 0px 0px 0px;
