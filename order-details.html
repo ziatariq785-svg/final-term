@@ -47,6 +47,12 @@
   </form>
 </div>
 
-<script src="./script.js"></script>
+<script>
+document.getElementById("orderForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  alert("✅ Order placed successfully!");
+});
+</script>
+
 </body>
 </html>
