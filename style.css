@@ -139,7 +139,7 @@ body{
 }
 .footer-box {
     width: 300px;
-     background-color: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .footer-title {
     font-size: 1.6rem;
