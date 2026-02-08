@@ -139,6 +139,7 @@ body{
 }
 .footer-box {
     width: 300px;
+     background-color: 1px solid rgba(255, 255, 255, 0.2);
 }
 .footer-title {
     font-size: 1.6rem;
@@ -164,7 +165,7 @@ body{
 .footer-bottom {
     text-align: center;
     padding-top: 25px;
-    background-color: 1px solid rgba(255, 255, 255, 0.2);
+   
     
 }
 /* Responsive */
